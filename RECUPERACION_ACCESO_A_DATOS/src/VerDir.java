@@ -1,4 +1,5 @@
 
+
 import java.io.*;
 
 public class VerDir {
@@ -19,12 +20,12 @@ public class VerDir {
 // ("C:\\Program Files");
 // ( "D:\\ADAT-1314\\UNI1");
 /*
- * System.out.println("¿Se puede leer ?"+f.canRead()); System.out.println(
- * "¿Se puede escribir ?"+f.canWrite()); System.out.println(
+ * System.out.println("ï¿½Se puede leer ?"+f.canRead()); System.out.println(
+ * "ï¿½Se puede escribir ?"+f.canWrite()); System.out.println(
  * "Nombre del fichero : "+f.getName()); System.out.println(
  * "Ruta               : "+f.getPath()); System.out.println(
  * "Ruta absoluta      : "+f.getAbsolutePath()); System.out.println(
- * "Tamaño             : "+f.length()); System.out.println(
+ * "Tamaï¿½o             : "+f.length()); System.out.println(
  * "Es un directorio   : "+f.isDirectory()); System.out.println(
  * "Es un fichero      : "+f.isFile()); System.out.println(
  * "Directorio padre   : "+f.getParent());
