@@ -1,0 +1,16 @@
+package domain;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int longitudPista = 1000;
+		Caballo miCaballo = new Caballo(longitudPista);
+		
+		miCaballo.start();
+		//le digo al main con este método que espere
+		miCaballo.join();
+		System.out.println("Terminado");
+
+	}
+
+}

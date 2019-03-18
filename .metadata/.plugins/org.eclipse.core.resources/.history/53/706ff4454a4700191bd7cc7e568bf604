@@ -1,0 +1,9 @@
+package domain;
+
+public class HiloSimple {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

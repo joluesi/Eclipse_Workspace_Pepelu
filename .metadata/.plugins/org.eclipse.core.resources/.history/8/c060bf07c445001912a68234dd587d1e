@@ -1,0 +1,20 @@
+'''
+Created on 13 mar. 2019
+Práctica 3 - Ejercicio 3. Programa que lee notas de los alumnos y dice cuántos están aprobados y cuál es la nota
+media. El programa dejará de pedir notas, cuando se pulse la tecla ENTER
+@author: joseluis
+'''
+
+print("Introduzca las notas, ENTER para terminar: ")
+
+i = 1
+salir = False 
+while not salir:
+    nota = input("Nota del alumno " + str(i) + ": ")
+    
+    
+    
+    
+    i += 1
+    
+print("Número de alumnos: ", int(i-1))

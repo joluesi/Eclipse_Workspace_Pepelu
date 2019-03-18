@@ -1,0 +1,90 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\joseluis\eclipse-workspace_2018_12\.metadata\.plugins\org.eclipse.core.resources\.projects\Recuperacion_PYTHON\com.python.pydev.analysis\v2_indexcache
+practica3_ejercicio_17|1552824683600608000|C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_17.py
+practica3_ejercicio_16|1552813344963485000|C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_16.py
+practica3_ejercicio_15|1552729776714118000|C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_15.py
+practica3_ejercicio_14|1552726893405919000|C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_14.py
+practica3_ejercicio_13|1552592530601284000|C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_13.py
+practica3_ejercicio_12|1552591058502916000|C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_12.py
+practica3_ejercicio_11|1552589002582567000|C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_11.py
+practica3_ejercicio_10|1552586393671400000|C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_10.py
+practica3_ejercicio_1|1552554050257047000|C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_1.py
+practica3_ejercicio_2|1552500227089059000|C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_2.py
+practica3_ejercicio_3|1552506425096510000|C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_3.py
+practica3_ejercicio_4|1552552235668900000|C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_4.py
+practica3_ejercicio_5|1552552922192395000|C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_5.py
+practica3_ejercicio_6|1552553155626929000|C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_6.py
+practica3_ejercicio_7|1552553853935428000|C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_7.py
+practica3_ejercicio_8|1552555904530381000|C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_8.py
+practica3_ejercicio_9|1552584187839447000|C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_9.py
+-- END DISKCACHE
+-- START DICTIONARY
+30
+7=C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_16.py
+2=practica3_ejercicio_17
+8=practica3_ejercicio_16
+26=practica3_ejercicio_15
+14=practica3_ejercicio_14
+16=practica3_ejercicio_13
+18=practica3_ejercicio_12
+20=practica3_ejercicio_11
+10=practica3_ejercicio_10
+22=practica3_ejercicio_1
+6=practica3_ejercicio_3
+30=practica3_ejercicio_4
+28=practica3_ejercicio_5
+24=practica3_ejercicio_7
+12=practica3_ejercicio_8
+4=practica3_ejercicio_9
+19=C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_11.py
+15=C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_13.py
+29=C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_4.py
+11=C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_8.py
+1=C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_17.py
+25=C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_15.py
+5=C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_3.py
+21=C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_1.py
+17=C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_12.py
+13=C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_14.py
+27=C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_5.py
+9=C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_10.py
+3=C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_9.py
+23=C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Bucles\practica3_ejercicio_7.py
+-- END DICTIONARY
+-- START TREE 1
+30
+ace|1|acertado!1^14#1*19@
+ale|0|
+alt|1|altura!3^30#9*35@
+alu|1|alumnos!5^29#1*51@
+apr|1|aprobados!5^11#1*51@
+bas|1|base!3^29#9*35@
+bil|0|
+can|1|cantidad!7^10#1*67@
+con|6|cont2!9^10#9*83@cont5!9^10#33*83@cont!1^13#1*19@cont3!9^10#17*83@cont1!9^10#1*83@cont4!9^10#25*83@
+des|1|desglose!7^17#9*67@
+dia|1|diaSemana!11^10#1*99@
+efe|1|efectivo!7^12#1*67@
+enc|0|
+esp|3|espacios!13^16#13*115@esPrimo!15^13#5*131@esPrimo!17^11#5*147@
+fac|1|factorial!19^10#1*163@
+i|2|i!5^10#1*51@i!21^10#1*179@
+jug|1|jugar!1^43#9*19@
+lad|1|lado!3^23#9*35@
+may|2|mayor!23^10#1*195@mayor!1^16#1*19@
+men|1|menor!1^15#1*19@
+niv|2|nivel!13^9#1*115@nivel!25^8#1*211@
+not|1|nota!5^17#5*51@
+num|10|num!23^9#1*195@numGen!1^19#5*19@num!9^13#5*83@num!19^8#1*163@numDias!11^9#1*99@num!21^8#1*179@num!17^9#1*147@num!15^9#1*131@num!27^9#1*227@num!29^9#1*243@
+opc|2|opcion!1^20#5*19@opcion!3^12#1*35@
+rad|1|radio!3^36#9*35@
+sal|2|salir!3^42#9*35@salir!5^14#1*51@
+sum|2|sumaNotas!5^13#1*51@sumaPares!29^11#1*243@
+sup|1|superficie!3^24#9*35@
+sus|1|suspensos!5^12#1*51@
+tex|0|
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

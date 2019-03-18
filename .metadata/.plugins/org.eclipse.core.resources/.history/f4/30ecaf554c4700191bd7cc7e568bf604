@@ -1,0 +1,15 @@
+package domain;
+
+public class HiloSimple {
+	private String nombre;
+	private int retardo;
+	
+	
+	public HiloSimple(String s, int d) {
+		super();
+		nombre = s;
+		retardo = d;
+	}
+	
+	
+}

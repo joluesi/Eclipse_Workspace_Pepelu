@@ -1,0 +1,19 @@
+package main;
+
+import domain.HiloSimple;
+
+public class Main {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		HiloSimple hs = new HiloSimple("Hilo1", (int) (Math.random()*2000));
+		hs.start();
+		System.out.println("Hola mundo - soy el 3");
+		//ahora le digo al hilo del método 'main' que espere hasta que termine el hilo 'hs'
+		hs.join();
+		System.out.println("Saludo terminado");
+		
+
+	}
+
+}

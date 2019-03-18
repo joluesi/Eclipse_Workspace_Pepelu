@@ -1,0 +1,27 @@
+'''
+Created on 16 mar. 2019
+
+@author: joseluis
+'''
+num=int(input("Introduzca una cantidad: "))
+billetes=[500,200,100,50,20,10,5,2,1]
+
+
+for i in range(len(billetes)):
+   
+    if num >= billetes[i]:
+        cantidad=int(num/billetes[i])
+       
+        if billetes[i] >= 5:
+            if cantidad > 1:
+                print(cantidad,"billetes de",billetes[i])
+            else:
+                print(cantidad,"billete de",billetes[i])
+        else:
+            if cantidad > 1:
+                print(cantidad,"monedas de",billetes[i])
+            else:
+                print(cantidad,"moneda de",billetes[i])
+                
+    num=float(num%billetes[i])
+    

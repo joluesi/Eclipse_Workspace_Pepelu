@@ -1,0 +1,34 @@
+package Main;
+
+import domain.Caballo;
+
+public class Main {
+	
+	//En ejercicio anterior se hizo una carrera DE UN SOLO CABALLO...
+	//Ahora haremos una carrera CON 10 CABALLOS
+	private static int caballos = 10;
+	public static int posicion[] = new int[caballos];
+	static Caballo[] caballo = new Caballo[caballos];
+	
+	
+	public static void main(String[] args) throws InterruptedException{
+		int longitudPista = 1000;
+		/*
+		Caballo miCaballo = new Caballo(longitudPista);
+		
+		miCaballo.start();
+		//le digo al main con este método que espere
+		miCaballo.join();
+		System.out.println("Terminado");
+		*/
+		
+		for (int i=0; i<caballos; i++) {
+			caballo[i] = new Caballo(10, i);
+			caballo[i].setName("Caballo Nº"+i);
+			caballo[i].start();
+		}
+	}
+	
+	
+
+}

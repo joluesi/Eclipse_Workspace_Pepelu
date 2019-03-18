@@ -1,0 +1,12 @@
+'''
+Created on 14 mar. 2019
+Práctica 3 - Ejercicio 8.
+Escribir un programa que “dibuje” un mes del calendario. El programa recibirá como entrada el
+número de días del mes y el día de la semana del primer día del mes. Ejemplo:
+@author: joseluis
+'''
+
+numDias = 0
+while numDias > 0 and numDias <= 31:
+    numDias = int(input("Númeo de días del mes: "))
+    

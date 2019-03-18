@@ -1,0 +1,14 @@
+package main;
+
+import domain.HiloSimple;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		HiloSimple hs = new HiloSimple("Hola Mundo", 1000);
+		
+
+	}
+
+}
