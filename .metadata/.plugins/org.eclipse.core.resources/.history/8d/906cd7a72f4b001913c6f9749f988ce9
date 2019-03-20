@@ -1,0 +1,14 @@
+'''
+Created on 20 mar. 2019
+
+@author: joseluis
+'''
+
+a = [0] * 6
+print(a)
+
+a * 3
+print(a)
+
+[0, 0, 0, 0, 0, 0] * 3
+print(a)

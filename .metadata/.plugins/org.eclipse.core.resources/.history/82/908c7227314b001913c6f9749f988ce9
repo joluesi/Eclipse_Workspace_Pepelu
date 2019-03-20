@@ -1,0 +1,17 @@
+'''
+Created on 20 mar. 2019
+
+@author: joseluis
+'''
+
+a = [0] * 6
+print(a)
+
+c = [a] * 3
+print(c)
+
+c[0][0] = 1
+print(c)
+
+M = [[0] * 6] * 3
+print(M)

@@ -1,0 +1,17 @@
+'''
+Created on 20 mar. 2019
+
+@author: joseluis
+'''
+
+matriz = []
+
+for i in range(0, 4): 
+    matriz.append([0] * 4)      
+    for j in range(0, 4):
+        if i == j:           
+            matriz[i][j] = 1
+        else:
+            matriz[i][j] = R 
+print(matriz)
+        

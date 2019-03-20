@@ -1,0 +1,19 @@
+'''
+Created on 20 mar. 2019
+
+@author: joseluis
+'''
+
+matriz = []
+
+for i in matriz:
+    matriz = [0] * 4
+    for j in matriz[i]:
+        if i == j:
+            matriz[i][j] == 1
+        else:
+            matriz[i][j] == 0
+            
+print(matriz)
+
+        

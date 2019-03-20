@@ -1,0 +1,35 @@
+'''
+Created on 20 mar. 2019
+Ejercicio 240 - libro python
+@author: joseluis
+'''
+
+dimension = int(input("Introduzca dimensión de la matriz: "))
+matriz = []
+for i in range(0, dimension): 
+    matriz.append([0] * dimension)      
+    for j in range(0, dimension):
+        if i == j:           
+            matriz[i][j] = 1       
+print(matriz)
+
+
+#Otra forma de hacer lo mismo, EN MATRICES CUADRADAS ¡ ¡ ¡ 
+'''
+dimension = int(input("Introduzca dimensión de la matriz: "))
+
+
+matriz = []
+for i in range(0, dimension): 
+    matriz.append([0] * dimension)                    
+    matriz[i][i] = 1
+        
+print(matriz)
+'''
+
+
+
+
+
+
+        

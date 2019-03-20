@@ -1,0 +1,15 @@
+'''
+Created on 20 mar. 2019
+
+@author: joseluis
+'''
+
+matriz = []
+
+for i in range(0, 4): 
+    x = [0] * 4
+    for j in range(0, 4):
+        if i == j:           
+            matriz[i][j].append(x)         
+print(matriz)
+        
