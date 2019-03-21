@@ -1,0 +1,13 @@
+package Main;
+
+import domain.Caballo;
+
+public class Main {
+	
+	public static void main(String[] args){
+		int longitudPista = 1000;
+		Caballo miCaballo = new Caballo(longitudPista);
+		
+	}
+
+}

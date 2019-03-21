@@ -1,0 +1,22 @@
+package domain;
+
+public class Reloj extends Thread {
+	
+	private String sonido;
+	
+	// constructor con 1 parametro (string)
+	public Reloj(String sonido) {
+		this.sonido = sonido;
+	}
+
+	public void run(){
+		try{
+			System.out.println(sonido);		
+			Thread.sleep(500);
+		} catch (InterruptedException e) {			
+			e.printStackTrace();
+		}
+		
+	}
+
+}

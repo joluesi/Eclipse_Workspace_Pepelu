@@ -1,0 +1,11 @@
+package domain;
+
+public class computo {
+	
+	private int[] dato1;
+	private int[] dato2;
+	private int[] resultado;
+
+
+
+}

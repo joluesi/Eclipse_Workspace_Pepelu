@@ -1,0 +1,14 @@
+package domain;
+
+public class Caballo extends Thread{
+	
+	public Caballo(int longitudPista) {
+		
+		
+	}
+
+	public void run(){
+		
+	}
+
+}

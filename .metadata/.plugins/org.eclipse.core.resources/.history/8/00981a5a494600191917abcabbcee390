@@ -1,0 +1,12 @@
+'''
+Created on 14/3/2019
+
+@author: dam18-27
+'''
+
+matriz = [[1, 2, 3], [2, 12, 6], [1, 0, -3], [0,-1, 0]]
+
+for fila in matriz:
+    for j in fila: 
+        if fila % 3 == 0:      
+            print(j, end = " ")

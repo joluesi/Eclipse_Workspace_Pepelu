@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Ejercicios_JAVASCRIPT_JQUERY&apos;" deleteContents="false" description="Delete resource &apos;Ejercicios_JAVASCRIPT_JQUERY&apos;" element1="/Ejercicios_JAVASCRIPT_JQUERY" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1542285694574"/>&#x0A;<refactoring comment="Delete resource &apos;EJERCICIOS_JAVASCRIPT&apos;" deleteContents="false" description="Delete resource &apos;EJERCICIOS_JAVASCRIPT&apos;" element1="/EJERCICIOS_JAVASCRIPT" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1542285814045"/>
+</session>

@@ -1,0 +1,24 @@
+package recuperación_01;
+
+import java.io.File;
+
+public class ejercicio_3 {
+	
+	public static void main(String[] args){
+		
+		File directorio = new File("/home/dam18-27/workspace_pepelu/AaD_Ejemplos_Libro_Tema_1");		
+		long ms = System.currentTimeMillis();
+		
+		File[] listaArchivos = directorio.listFiles();
+		for (int i = 0; i < listaArchivos.length; i++) {
+			if (listaArchivos[i].isDirectory()) {					
+				
+			}
+		}
+		System.out.printf("A día de hoy han pasado %d ms desde el 01-01-1970", ms);
+		boolean cambio = directorio.setLastModified(ms);
+		
+		
+	}
+
+}

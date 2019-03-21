@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;RECUPERACION_PYTHON/prueba.py&apos;" deleteContents="false" description="Delete resource &apos;RECUPERACION_PYTHON/prueba.py&apos;" element1="/RECUPERACION_PYTHON/prueba.py" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1552559292420"/>
+</session>

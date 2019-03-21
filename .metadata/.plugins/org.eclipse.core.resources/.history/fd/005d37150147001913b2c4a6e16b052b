@@ -1,0 +1,18 @@
+package domain;
+
+public class Sumador extends Thread {
+	
+	private Computo misDatos;
+	
+	
+	public Sumador(Computo misDatos) {
+		this.misDatos = misDatos;
+	
+	}
+
+	public void run(){
+		
+		
+	}
+
+}

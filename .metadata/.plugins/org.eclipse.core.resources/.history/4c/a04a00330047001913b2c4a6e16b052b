@@ -1,0 +1,18 @@
+package main;
+
+import domain.Computo;
+import domain.Sumador;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int hilos = 10;
+		Computo misDatos = new Computo(hilos);
+		misDatos.print();
+		Sumador[] miSumador = new Sumador[hilos];
+		
+
+	}
+
+}

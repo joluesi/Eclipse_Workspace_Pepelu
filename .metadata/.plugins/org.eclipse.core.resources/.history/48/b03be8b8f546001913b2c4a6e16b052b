@@ -1,0 +1,13 @@
+package domain;
+
+public class Reloj extends Thread {
+	
+	public Reloj(String string) {
+		
+	}
+
+	public void run(){
+		
+	}
+
+}

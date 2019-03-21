@@ -1,0 +1,55 @@
+package domain;
+
+public class Computo {
+		
+	private int[] dato1;
+	private int[] dato2;
+	private int[] resultado;
+	int hilos;
+	
+	//constructor
+	public Computo(int hilos) {
+		dato1 = new int[hilos];
+		dato2 = new int[hilos];
+		resultado = new int[hilos];
+		this.hilos = hilos;
+		int valor1;
+		int valor2;
+		// llenamos los arrays de enteros con números 
+		for (int i = 0; i < hilos; i++){
+			valor1 = (int) (Math.random()*100)+1;
+			dato1[i] = valor1;
+			valor2 = (int) (Math.random()*100)+1;
+			dato2[i] = valor2;
+			
+		}
+	}
+	
+	public void print(){
+		for (int i = 0; i < hilos; i++){
+			System.out.println("Dato1["+i+"] = "+dato1[i]);
+			System.out.println("Dato2["+i+"] = "+dato2[i]);
+			System.out.println("Resultado["+i+"] = "+resultado[i]);
+
+		}
+	}
+
+	public int[] getResultado() {
+		return resultado;
+	}
+
+	public void setResultado(int[] resultado) {
+		this.resultado = resultado;
+	}
+
+	public int[] getDato1() {
+		return dato1;
+	}
+
+	public int[] getDato2() {
+		return dato2;
+	}
+
+
+
+}

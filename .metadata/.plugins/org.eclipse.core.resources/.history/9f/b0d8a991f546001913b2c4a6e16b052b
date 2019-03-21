@@ -1,0 +1,14 @@
+package procesos_reloj;
+
+import domain.Reloj;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Reloj tic = new Reloj();
+		
+
+	}
+
+}
