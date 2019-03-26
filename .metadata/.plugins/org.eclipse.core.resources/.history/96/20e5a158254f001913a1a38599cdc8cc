@@ -1,0 +1,75 @@
+'''
+Created on 25 mar. 2019
+Práctica 4.
+Ejercicio 2- Una empresa multinacional dispone de una secuencia FEMPLE (se harán dos versiones
+una con una lista y otra con un diccionario), con los datos de sus empleados. Cada elemento
+tiene la siguiente información (en la primera versión se pueden poner los datos fijos de la
+secuencia):
+Número de empleado
+Nombre
+Categoría
+País al que pertenece
+Las categorías laborales son A, B, C, D, E, F. La empresa tiene empleados destinados en 7
+países (Francia, España, Portugal, Alemania, Suiza, Noruega, China).
+A partir de esta secuencia se desea obtener la siguiente información:
+ Número total de empleados por categoría
+ Número total de empleados por país
+ País con máximo número de empleados (se supone que no hay dos países
+coincidentes en ello).
+@author: joseluis
+'''
+
+empleados = [{'numero' : 1, 'nombre' : 'pepito', 'categoria' : 'A', 'pais' : 'España'},
+             {'numero' : 2, 'nombre' : 'juanito', 'categoria' : 'B', 'pais' : 'Francia'},
+             {'numero' : 3, 'nombre' : 'jorgito', 'categoria' : 'C', 'pais' : 'Portugal'},
+             {'numero' : 4, 'nombre' : 'jaimito', 'categoria' : 'D', 'pais' : 'Alemania'},
+             {'numero' : 5, 'nombre' : 'luis', 'categoria' : 'E', 'pais' : 'Suiza'},
+             {'numero' : 6, 'nombre' : 'rafa', 'categoria' : 'F', 'pais' : 'Noruega'},
+             {'numero' : 7, 'nombre' : 'laura', 'categoria' : 'A', 'pais' : 'China'},
+             {'numero' : 8, 'nombre' : 'ana', 'categoria' : 'B', 'pais' : 'España'},
+             {'numero' : 9, 'nombre' : 'rosa', 'categoria' : 'B', 'pais' : 'España'}]
+
+
+categorias = {'A': 0, 'B': 0, 'C': 0, 'D': 0, 'E': 0, 'F': 0}
+
+for emple in empleados:  
+    if emple['categoria'] == 'A':
+        categorias['A'] += 1
+    elif emple['categoria'] == 'B':    
+        categorias['B'] += 1
+    elif emple['categoria'] == 'C':    
+        categorias['C'] += 1
+    elif emple['categoria'] == 'D':    
+        categorias['D'] += 1
+    elif emple['categoria'] == 'E':    
+        categorias['E'] += 1
+    elif emple['categoria'] == 'F':    
+        categorias['F'] += 1
+    
+        
+print(categorias)        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

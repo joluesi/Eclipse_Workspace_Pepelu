@@ -1,0 +1,17 @@
+'''
+Created on 26 mar. 2019
+Práctica 4.
+Ejercicio 4.- Programa que pide nombres. Tras pedirlos, debe mostrarlos ordenados.
+@author: joseluis
+'''
+listaNombres = list() 
+nombre = input("Introduzca nombres. ENTER para terminar: ")
+
+while nombre != "":
+    nombre = input("Introduzca nombres. ENTER para terminar: ")    
+    listaNombres.append(nombre) 
+       
+listaOrd = listaNombres.sort()
+        
+print("Los nombres son: ")
+print(listaOrd)

@@ -27,6 +27,6 @@ for i in range(len(efectivo)):
             else:
                 print(desglose, "moneda de", efectivo[i])
                 
-    cantidad = float(cantidad % efectivo[i])
+    cantidad = float(cantidad % efectivo[i])  
             
                 
