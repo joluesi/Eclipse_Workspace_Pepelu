@@ -16,6 +16,7 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\joseluis\eclipse-workspace_2018_12\Proyecto_PYTHON"/>
 			<item value="C:\Users\joseluis\eclipse-workspace_2018_12\R02_CarreraCaballos"/>
 			<item value="C:\Users\joseluis\eclipse-workspace_2018_12\R01_SumaConcurrente"/>
 		</list>

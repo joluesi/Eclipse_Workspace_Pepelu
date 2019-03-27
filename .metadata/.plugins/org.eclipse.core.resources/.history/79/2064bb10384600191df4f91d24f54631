@@ -1,8 +1,0 @@
-'''
-Created on 14 mar. 2019
-Práctica 3 - Ejercicio 8.
-Escribir un programa que “dibuje” un mes del calendario. El programa recibirá como entrada el
-número de días del mes y el día de la semana del primer día del mes. Ejemplo:
-@author: joseluis
-'''
-
