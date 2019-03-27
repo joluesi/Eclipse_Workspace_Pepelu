@@ -12,8 +12,8 @@ public class EscribirFichObject {
     //conecta el flujo de bytes al flujo de datos
    ObjectOutputStream dataOS = new ObjectOutputStream(fileout);  
    
-   String nombres[] = {"Ana","Luis Miguel","Alicia","Pedro","Manuel","Andrés",
-                       "Julio","Antonio","María Jesús"};
+   String nombres[] = {"Ana","Luis Miguel","Alicia","Pedro","Manuel","Andres",
+                       "Julio","Antonio","Maria Jesus"};
 					   
    int edades[] = {14,15,13,15,16,12,16,14,13};
    System.out.println("GRABO LOS DATOS DE PERSONA.");      

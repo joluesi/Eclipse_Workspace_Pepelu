@@ -16,7 +16,8 @@ for i in range (2, num+1):
             esPrimo = False
             break
     if esPrimo:
-        print(i, end = ", ")
+        print(i, end=", ")
+
 
 
     
