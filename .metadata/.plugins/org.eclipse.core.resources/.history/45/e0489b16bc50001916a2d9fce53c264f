@@ -1,0 +1,51 @@
+'''
+Created on 27 mar. 2019
+Práctica 4.
+Ejercicio 8.- Programa para la emisión de facturas.
+@author: joseluis
+'''
+
+articulos = [['pritt', 'barra', 'pegamento', 5], ['edding', 'edding 300', 'permanente', 10], ['plusOffice', '24/6', 'grapas', 7],
+             ['casio', 'fx-3800p', 'calculadora', 20]]
+
+cantidades = [0, 0, 0, 0]
+
+#comprador = [['pepelu linfosite', '25612453A', 'calle mayor, 33'], ['marc andreu', '74147965U', 'calle princesa, 2']]
+comprador = list()
+
+salir = False
+while not salir:
+    print("Datos del comprador: ")
+    print("-"*30)
+    nombre = input("Introduzca nombre del comprador: ")
+    if nombre == "":       
+        salir = True
+    else:
+        comprador.append(nombre)
+        dni = input("Introduzca DNI del comprador: ")
+        if dni == "":
+            salir = True 
+        else:
+            comprador.append(dni)
+            direccion = input("Introduzca dirección del comprador: ")
+            if direccion == "":
+                salir = True
+            else:
+                comprador.append(direccion)
+    #print(comprador) 
+    print("Detalles del pedido: ") 
+    print("-"*30)
+    for i in range(len(cantidades)):
+        for j in range(len(articulos)):
+            cantidad = int(input("Introduzca cantidad: "))
+            print("Cantidad: ", cantidad, "Descripción:", articulos[[i][2]], " / Tipo:", articulos[[i][1]], " Precio Ud.:", articulos[[i][3]])
+               
+                
+                
+                
+                
+                
+                
+                
+                
+            

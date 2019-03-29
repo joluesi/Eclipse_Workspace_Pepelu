@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Recuperacion_PYTHON/practica_Bucles/practica3_ejercicio_1&apos; to &apos;practica3_ejercicio_1.py&apos;" description="Rename resource &apos;practica3_ejercicio_1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="practica_Bucles/practica3_ejercicio_1" name="practica3_ejercicio_1.py" stamp="1552497490773" updateReferences="true"/>
+</session>

@@ -1,3 +1,12 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
+=======
+org.eclipse.ant.ui.customtemplates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+problem_classpath=warning
+problem_imports=warning
+problem_properties=ignore
+problem_security=warning
+problem_tasks=ignore
+>>>>>>> 248b57efbe7f46408673a848161403b5f9570375
 useAnnotationsPrefPage=true
 useQuickDiffPrefPage=true

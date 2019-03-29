@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INSTUPpractica_Tipo_Datos.practica_4_ejerc_10
 /home/dam18-27/workspace_pepelu/Eclipse_Workspace_Pepelu/Recuperacion_PYTHON/practica_Tipo_Datos/practica_4_ejerc_10.py
 INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0&&3|6|2|0&&3|7|2|0&&3|8|2|0&&3|6|2|0&&3|6|2|0
@@ -9,3 +10,17 @@ i=5
 letra=8
 seleccionada=3
 intentos=4
+=======
+INSTUPpractica_Tipo_Datos.practica_4_ejerc_9
+C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Tipo_Datos\practica_4_ejerc_9.py
+INFOS:&&3|1|2|0|3|8|1&&3|4|2|0|3|16|1&&3|5|2|0|3|23|5&&3|6|2|0|3|27|13&&3|7|2|0|3|49|13&&3|8|2|0|3|50|13&&3|9|2|0|3|75|9&&3|4|2|0|3|77|13&&3|5|2|0|3|79|13
+marca=7
+practica_Tipo_Datos.practica_4_ejerc_9=2
+coche=6
+opcion=5
+coches=1
+salir=4
+confirma=9
+C:\Users\joseluis\eclipse-workspace_2018_12\Recuperacion_PYTHON\practica_Tipo_Datos\practica_4_ejerc_9.py=3
+modelo=8
+>>>>>>> 248b57efbe7f46408673a848161403b5f9570375

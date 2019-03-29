@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 GitRepositoriesView.GitDirectories=/home/dam18-27/workspace_pepelu/.git\:/home/dam18-27/workspace_pepelu/Eclipse_Workspace_Pepelu/.git\:
 RepositorySearchDialogSearchPath=/home/dam18-27/workspace_pepelu/Eclipse_Workspace_Pepelu
+=======
+GitRepositoriesView.GitDirectories=C\:\\Users\\joseluis\\eclipse-workspace_2018_12\\HiloSimple\\.git;C\:\\Users\\joseluis\\.git;
+GitRepositoriesView.GitDirectories.relative=HiloSimple\\.git;C\:\\Users\\joseluis\\.git;
+>>>>>>> 248b57efbe7f46408673a848161403b5f9570375
 eclipse.preferences.version=1

@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <session version="1.0">
 <refactoring accessors="true" comment="Delete element from project &apos;RECUPERACION_PROCESOS&apos;&#x0A;- Original project: &apos;RECUPERACION_PROCESOS&apos;&#x0A;- Original element: &apos;procesos_reloj.Main&apos;" description="Delete element" element1="/src&lt;procesos_reloj{Main.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1552635287180" subPackages="false" version="1.0"/>
+=======
+<session version="1.0">&#x0A;<refactoring accessors="true" comment="Delete element from project &apos;RECUPERACION_PROCESOS&apos;&#x0D;&#x0A;- Original project: &apos;RECUPERACION_PROCESOS&apos;&#x0D;&#x0A;- Original element: &apos;RECUPERACION_PROCESOS/src&apos;" description="Delete element" element1="/src" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1552647854796" subPackages="false" version="1.0"/>&#x0A;<refactoring accessors="true" comment="Delete 2 elements from project &apos;RECUPERACION_PROCESOS&apos;&#x0D;&#x0A;- Original project: &apos;RECUPERACION_PROCESOS&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     _classpath.xml&#x0D;&#x0A;     _project.xml" description="Delete elements" element1="_classpath.xml" element2="_project.xml" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="2" stamp="1552647862392" subPackages="false" version="1.0"/>
+>>>>>>> 248b57efbe7f46408673a848161403b5f9570375
 </session>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<<<<<<< HEAD
 <fullyQualifiedTypeName name="org.omg.CORBA.portable.InputStream"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
@@ -25,4 +26,15 @@
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
 <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+=======
+<fullyQualifiedTypeName name="bucles.PuestoTrabajo"/>
+<fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="domain.Caballo"/>
+<fullyQualifiedTypeName name="main.Main"/>
+<fullyQualifiedTypeName name="main.Caballo"/>
+<fullyQualifiedTypeName name="domain.HiloSimple"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+>>>>>>> 248b57efbe7f46408673a848161403b5f9570375
 </qualifiedTypeNameHistroy>

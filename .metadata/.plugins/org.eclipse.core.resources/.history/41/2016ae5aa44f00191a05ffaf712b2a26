@@ -1,0 +1,23 @@
+'''
+Created on 26 mar. 2019
+Práctica 4.
+Ejercicio 3.- Programa que lee notas de alumnos. Dejará de pedir notas al pulsar ENTER. Al terminar, mostrará todas las notas de los alumnos
+y un resumen de aprobados y suspensos incluyendo la nota media.
+@author: joseluis
+'''
+
+print("Introduzca las notas, ENTER para terminar: ")
+notas = list()
+nota = "0.0"
+i = 0
+while nota != "":
+    nota = input("Nota del alumno "+ str(i+1) + ": ")    
+    notas.append((nota))
+    i += 1
+   
+print("Se han introducido las siguientes notas: ")
+
+for j in range(len(notas)):
+    print("\t", "Alumno", j+1, ":", notas[j+1])
+        
+    

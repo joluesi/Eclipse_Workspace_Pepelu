@@ -1,0 +1,71 @@
+'''
+Created on 27 mar. 2019
+Práctica 4.
+Ejercicio 8.- Programa para la emisión de facturas.
+@author: joseluis
+'''
+
+# Doy de alta 4 artículos:
+articulos = [['pritt', 'barra', 'pegamento', 5], ['edding', 'edding 300', 'permanente', 10], ['plusOffice', '24/6', 'grapas', 7],
+             ['casio', 'fx-3800p', 'calculadora', 20]]
+
+comprador = list()
+
+salir = False
+while not salir:
+    print("FACTURA 'SUPER LEGAL'")
+    print()
+    print("Datos del comprador: ")
+    print("-"*60)
+    nombre = input("Introduzca nombre del comprador: ")
+    if nombre == "":       
+        salir = True                
+    else:
+        comprador.append(nombre)
+        dni = input("Introduzca DNI del comprador: ")
+        if dni == "":
+            salir = True             
+        else:
+            comprador.append(dni)
+            direccion = input("Introduzca dirección del comprador: ")
+            if direccion == "":
+                salir = True                
+            else:
+                comprador.append(direccion)
+                
+                print() 
+                importeBase = 0
+                importeTotal = importeBase * 1.16
+                print("Detalles del pedido: ") 
+                print("-"*60)
+                for i in range(len(articulos)): 
+                    cantidad = 0               
+                    print("Descripción:", articulos[i][2], " / Tipo:", articulos[i][1], " / Precio Ud.:", articulos[i][3])
+                    cantidad = int(input("Introduzca cantidad en número: "))
+                    importeBase += (cantidad * articulos[i][3])
+                
+                importeTotal = importeBase * 1.16
+                print("-"*60)    
+                print("Importe base de su factura: ", importeBase, "€")
+                print("IVA aplicado: 16%")
+                print("IMPORTE TOTAL:", round(importeTotal, 2), "€")
+                print("="*60)
+                print("Gracias por su compra")
+                print()
+                otra = input("¿Desea emitir otra factura?: S/N ")
+                if otra == 'N' or otra == 'n':
+                    print("Adiós!!!")
+                    salir = True
+                else:
+                    salir = False
+    
+               
+                
+                
+                
+                
+                
+                
+                
+                
+            
