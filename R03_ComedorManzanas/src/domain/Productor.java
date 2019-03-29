@@ -1,7 +1,7 @@
 package domain;
 
-public class Productor extends Thread{
-	
+public class Productor extends Thread {
+
 	private Cesto miCestoManzanas;
 	private int capacidadCesto;
 	
@@ -10,23 +10,18 @@ public class Productor extends Thread{
 		this.capacidadCesto = capacidadCesto;
 	}
 
-	public void run(){
-		while(true){
-
-			int meter = (int) (Math.random()*5)+1;
+	public void run() {
+		while (true) {
+			int meter = (int) (Math.random()*25)+1;
 			int metidas = 0;
-			if (miCestoManzanas.getManzanasCesto() <= capacidadCesto){
-				metidas = miCestoManzanas.ponerManzanasCesto(meter);
+			if (miCestoManzanas.getManzanasCesto() <= capacidadCesto) {
+				metidas  = miCestoManzanas.ponerManzanasCesto(meter);
 			}
-			System.out.println("El jardinero mete " +metidas+ ". En el cesto hay "+miCestoManzanas.getManzanasCesto());
+			System.out.println("El jardinero mete "+metidas+" en el cesto hay "+miCestoManzanas.getManzanasCesto());
 			int espera = (int) (Math.random()*1000)+1;
-			try{
+			try {
 				sleep(espera);
-			}catch (InterruptedException e) {}
-			
+			} catch (InterruptedException e) {}
 		}//end-while
-		
 	}
-	
-
 }

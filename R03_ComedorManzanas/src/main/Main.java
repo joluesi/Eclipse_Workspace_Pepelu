@@ -7,10 +7,7 @@ import domain.Productor;
 public class Main {
 
 	public static void main(String[] args) {
-		//2º doy una capacidad al cesto
 		int capacidadCesto = 25;
-		
-		//1º creo variable de la clase Cesto
 		Cesto miCestoManzanas = new Cesto(capacidadCesto);
 		
 		Productor jardinero = new Productor(miCestoManzanas, capacidadCesto);
@@ -18,7 +15,6 @@ public class Main {
 		
 		chaval.start();
 		jardinero.start();
-
 	}
 
 }

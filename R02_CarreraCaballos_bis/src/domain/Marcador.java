@@ -4,6 +4,7 @@ public class Marcador extends Thread{
 
 	private int longitudPista;
 	private int numCaballos;
+	private int caballoGanador;
 	private Caballo [] carrera;
 	
 	public Marcador(int longitudPista, int numCaballos) {
@@ -26,23 +27,23 @@ public class Marcador extends Thread{
 			for (int i = 0; i < numCaballos; i++) {
 				if ( carrera[i].isAlive() )
 					corriendo = true;
-				else{
-					if (carrera[i].getMeta()){
+				else {
+					if (carrera[i].getMeta()) {
 						caballoGanador = i;
 						terminarCarrera();
 						corriendo = false;
 						break;
-					} //end-if
-				} // end-if
-			}// end-for
+					}//end-if
+				}//end-if
+			}//end-for
 			printMarcador();
-		}
+		}//end-do
 		while (corriendo);
-		System.out.println("El caballo ganador es: "+caballoGanador);
+		System.out.println("El caballo ganador es "+caballoGanador);
 	}
-	
-	private void terminarCarrera(){
-		for (int i = 1; i< numCaballos; i++){
+
+	private void terminarCarrera() {
+		for (int i = 0; i < numCaballos; i++) {
 			carrera[i].setTerminar();
 		}
 	}
