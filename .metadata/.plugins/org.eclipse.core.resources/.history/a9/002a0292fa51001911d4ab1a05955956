@@ -1,0 +1,37 @@
+package domain;
+
+public class Cesto {
+	
+	//4º creo una variable para saber cuantas manzanas tengo en el cesto en ese momento
+	private int manzanasCesto;
+	private int capacidadCesto;
+	
+	//3º creo el constructor de la clase Cesto
+	public Cesto (int capacidadCesto){
+		this.capacidadCesto = capacidadCesto;
+		this.manzanasCesto = capacidadCesto;
+	}
+
+	//5º creo los geters and setters
+	public int comerManzanasCesto(int manzanas) {
+		int coger;
+		if (manzanasCesto >= manzanas){
+			coger = manzanas;
+			manzanasCesto -= manzanas;
+		}
+		else{
+			coger = 0;
+		}
+			
+		return coger;
+	}
+	
+	public int getManzanasCesto(int manzanas) {	
+		return manzanasCesto;
+	}
+
+	public void setManzanasCesto(int manzanas) {
+		this.manzanasCesto = manzanasCesto + manzanas;
+	}
+	
+}

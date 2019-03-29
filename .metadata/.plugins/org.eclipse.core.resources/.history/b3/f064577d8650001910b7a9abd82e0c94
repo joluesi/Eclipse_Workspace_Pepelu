@@ -1,0 +1,22 @@
+'''
+Created on 27 mar. 2019
+Práctica 4.
+Ejercicio 1 - Versión 1.b.- Dado un texto por el usuario formado por letras y espacios (introducido en una
+cadena), escribir un algoritmo que obtenga la frecuencia de aparición de cada letra del alfabeto
+en el texto. Finalmente debe aparecer cada letra junto al número de veces que aparece en el
+texto.
+
+@author: joseluis
+'''
+
+frecuencias = dict()
+frase = input("Introduzca una frase: ")
+
+for letra in frase:
+    if letra not in frecuencias.keys():
+        frecuencias[letra] = 1
+    else:
+        frecuencias[letra] += 1
+        
+print(frecuencias)
+        

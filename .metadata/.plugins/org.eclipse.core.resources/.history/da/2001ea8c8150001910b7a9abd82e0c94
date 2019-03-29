@@ -1,0 +1,24 @@
+
+import java.io.*;
+public class EscribirFichData {
+  public static void main(String[] args) throws IOException {   
+ 
+	  File ficheroIN = new File("FichData.dat");
+	  DataInputStream dataIS = new DataInputStream(new FileInputStream(ficheroIN));
+	  
+	  File ficheroOUT = new File("FichData_TEMP.dat");
+	  DataOutputStream dataOS = new DataOutputStream(new DataOutputStream(ficheroOUT));
+
+ 
+   String nombres[] = {"Ana","Luis Miguel","Alicia","Pedro","Manuel","Andres",
+                       "Julio","Antonio","Maria Jesus"};
+					   
+   int edades[] = {14,15,13,15,16,12,16,14,13};
+	
+   for (int i=0;i<edades.length; i++){
+      dataOS.writeUTF(nombres[i]); //inserta nombre
+      dataOS.writeInt(edades[i]);  //inserta edad
+   }     
+   dataOS.close();  //cerrar stream 
+  }
+}

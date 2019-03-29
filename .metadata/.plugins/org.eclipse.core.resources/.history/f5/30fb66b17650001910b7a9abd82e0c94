@@ -1,0 +1,38 @@
+package recuperacion_02;
+
+import java.io.DataOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
+public class recu_02_ejercicio_1 {
+
+	public static void main(String[] args) throws IOException {
+
+		File fichero = new File("FichData.dat");
+		DataOutputStream dataOS = new DataOutputStream(new FileOutputStream(
+				fichero));
+		
+		String DNI[] = {"00000000A", "11111111B", "22222222C", "33333333D", "44444444E", "55555555F",
+		   		   "66666666G", "77777777H", "88888888J", "99999999K", "12121212L", "23232323M"};
+
+		String apellidos[] = {"cano", "molina", "araez", "ibañez", "escribano", "segado", "martinez", "sanchez",
+								"pujalte", "medina"};
+
+		String nombres[] = { "Ana", "Luis Miguel", "Alicia", "Pedro", "Manuel",
+				"Andres", "Julio", "Antonio", "Maria Jesus" };
+		
+
+		int turno[] = { 1, 2, 3, 4, 5, 6 , 7, 8, 9, 10};
+
+		for (int i = 0; i < DNI.length; i++) {
+			dataOS.writeUTF(DNI[i]); // inserta nombre
+			dataOS.writeUTF(apellidos[i]); // inserta edad
+			dataOS.writeUTF(nombres[i]); // inserta nombre
+			dataOS.writeInt(turno[i]); // inserta edad
+		}
+		dataOS.close(); // cerrar stream
+	}
+
+}

@@ -1,0 +1,50 @@
+package recuperación_01;
+
+import java.io.File;
+import java.util.GregorianCalendar;
+
+public class recu_01_bis_argumentos {
+	
+	public static void main(String[] args){
+		// este programa se ejecutará desde la línea de comandos precisa pues de 2 argumentos:
+		// el primer argumento será el directorio
+		// el segundo argumento será la fecha que queremos poner en cada archivo
+		
+		File directorio = new File(args[0]);// se extrae el directorio del primer argumento introducido
+		String fechaString = args[1]; // se extrae la fecha del segundo argumento introducido
+		
+		System.out.println(args[0]);
+		System.out.println(fechaString);
+		
+		int ano = Integer.parseInt(fechaString.substring(6, 10));
+		int mes = Integer.parseInt(fechaString.substring(3, 5));;
+		int dia = Integer.parseInt(fechaString.substring(0, 2));;
+		
+		//System.out.println("año: "+ano + "mes: "+mes +"dia: "+dia);
+		GregorianCalendar fecha = new GregorianCalendar(ano, mes-1, dia);
+		
+		long ms = fecha.getTimeInMillis();
+		
+		cambiarFecha(directorio, ms);
+	
+	}
+	
+	public static void cambiarFecha(File directorio, long ms){
+        File[] listaArchivos=directorio.listFiles();
+        
+        for(int i=0; i<listaArchivos.length; i++){
+                   	if (listaArchivos[i].isDirectory()) {
+                   		listaArchivos[i].setLastModified(ms);
+                   		cambiarFecha(listaArchivos[i], ms);
+        		 
+                 }
+                   	else{
+                   		listaArchivos[i].setLastModified(ms);
+            }
+                   	
+        }
+		
+       
+    }// FIN tamanodir
+
+}

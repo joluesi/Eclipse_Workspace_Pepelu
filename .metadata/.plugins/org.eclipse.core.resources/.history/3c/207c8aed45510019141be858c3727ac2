@@ -1,0 +1,11 @@
+'''
+Created on 28/3/2019
+
+@author: dam18-27
+'''
+import random
+
+palabras = {1:'hola', 2:'coche', 3:'bicicleta'}
+
+seleccionada = randint(1,3)
+

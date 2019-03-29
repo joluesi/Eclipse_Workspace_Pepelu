@@ -1,0 +1,69 @@
+package domain;
+
+import java.util.concurrent.Semaphore;
+
+public class Cesto {
+	
+	//4º creo una variable para saber cuantas manzanas tengo en el cesto en ese momento
+	private int manzanasCesto;
+	private int capacidadCesto;
+	
+	//7º creo una variable de tipo semáforo
+	private Semaphore accesoCesto = new Semaphore(1);
+	
+	//3º creo el constructor de la clase Cesto (el cesto está lleno)
+	public Cesto (int capacidadCesto){
+		this.capacidadCesto = capacidadCesto;
+		this.manzanasCesto = capacidadCesto;
+	}
+
+	//6º tengo que establecer un semáforo por problemas de concurrencia cuando se quiera acceder
+	// a la variable manzanasCesto
+	public int comerManzanasCesto(int manzanas) {
+		int coger;
+		try{
+			accesoCesto.acquire();
+		}catch (InterruptedException e) {}
+		
+		if (manzanasCesto >= manzanas){
+			coger = manzanas;
+			manzanasCesto -= manzanas;
+		}
+		else{
+			coger = 0;
+		accesoCesto.release();
+		
+		}
+		return coger;
+	}
+			
+	
+	//5º creo los getters and setters
+	public int getManzanasCesto(int manzanas) {	
+		int valor = 0;
+		try{
+			accesoCesto.acquire();
+			valor = manzanasCesto;
+			accesoCesto.release();
+			
+		}catch (InterruptedException e) {}
+
+		return manzanasCesto;
+	}
+
+	public int ponerManzanasCesto(int manzanas) {
+		int valor = 0;
+		try{
+			accesoCesto.acquire();
+			if((manzanasCesto + manzanas) <= capacidadCesto){
+				manzanasCesto += manzanas;
+				valor = manzanas;
+			accesoCesto.release();
+			}
+
+		}catch (InterruptedException e) {}
+		
+		return valor;
+	}
+	
+}

@@ -1,0 +1,10 @@
+package domain;
+
+public class Productor extends Thread{
+	
+	public void run(){
+		
+	}
+	
+
+}
