@@ -1,0 +1,8 @@
+'''
+Created on 1 abr. 2019
+Practica 5.
+Ejercicio 2.- Escribir un programa qeu solicite un número n y a continuación imprima todos los primos comprendidos en el intervalo [2-n].
+Utilizar función es_primo que dado un número devuelva si es primo o no.
+@author: joseluis
+'''
+

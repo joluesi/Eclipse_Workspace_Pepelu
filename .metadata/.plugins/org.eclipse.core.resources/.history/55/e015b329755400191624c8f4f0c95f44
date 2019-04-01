@@ -1,0 +1,26 @@
+'''
+Created on 1 abr. 2019
+Ejercicio libro 273. Función que devuelve el valor absoluto de la máxima diferencia entre dos números consecutivos de una lista.
+@author: joseluis
+'''
+
+
+def max_diferencia_consecutiv_lista (lista):
+    diferencia = 0
+    max_diferencia = 0
+    mayor = 0
+    for i in range (len(lista)-1):
+        diferencia = ((lista[i+1]) - (lista[i]))
+    max_diferencia = diferencia
+        if diferencia > max_diferencia:
+            max_diferencia = diferencia 
+        
+        
+    return max_diferencia
+ 
+
+lista1 = [3, 7, 19, 20, 26] 
+
+print(max_diferencia_consecutiv_lista(lista1))
+
+    

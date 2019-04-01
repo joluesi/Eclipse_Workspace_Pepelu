@@ -1,0 +1,19 @@
+'''
+Created on 1 abr. 2019
+Ejercicio libro 272. Función que devuelve el producto de todos los números de una lista.
+@author: joseluis
+'''
+
+def producto_lista(lista):
+
+    if len(lista) > 0:
+        media = sum(lista) / len(lista)
+            
+    else:
+        producto = None
+ 
+    return producto
+
+
+lista1 = [1, 2, 3, 4, 4] 
+print(media_lista(lista1))

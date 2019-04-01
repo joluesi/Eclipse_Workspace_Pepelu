@@ -1,0 +1,21 @@
+'''
+Created on 1 abr. 2019
+Ejercicio libro 271. Función que devuelve la media de una lista de números.
+@author: joseluis
+'''
+
+def media_lista(lista):
+    series = 1    
+    media = 0
+    for i in range(len(lista)-1):
+        if len(lista) > 0:
+            media += Math.avg(lista[i])
+            
+        else:
+            media = 0
+ 
+    return media
+
+
+lista1 = [1, 1, 8, 8, 8, 8, 0, 0, 0, 8] 
+print(media_lista(lista1))

@@ -1,0 +1,22 @@
+'''
+Created on 1 abr. 2019
+Ejercicio libro 268. Función que devuelve el número de series en una lista.
+@author: joseluis
+'''
+
+def numero_series(lista):
+    series = 1    
+
+    for i in range(len(lista)+1):
+        while lista[i-1] == lista[i]:
+            series = 1
+            i += 1
+        else:
+            series += 1
+    
+            
+    return series
+
+
+lista1 = [1, 1, 8, 8, 8, 8, 0, 0, 0] 
+print(numero_series(lista1))

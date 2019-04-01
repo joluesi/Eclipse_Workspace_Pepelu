@@ -1,0 +1,15 @@
+'''
+Created on 1 abr. 2019
+Ejercicio libro 267.
+@author: joseluis
+'''
+
+def maximo_lista (lista):
+
+ 
+
+lista1 = [3, 7, 14, -20] 
+
+print(maximo_lista(lista1))
+
+      

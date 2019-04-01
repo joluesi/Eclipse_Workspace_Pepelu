@@ -1,0 +1,11 @@
+'''
+Created on 1 abr. 2019
+
+@author: joseluis
+'''
+
+def sumatorio_dif (lista):
+    suma = 0
+    for i in len(lista)-1:
+        
+        

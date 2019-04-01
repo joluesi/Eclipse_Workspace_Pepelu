@@ -1,0 +1,18 @@
+'''
+Created on 1 abr. 2019
+
+@author: joseluis
+'''
+
+def sumatorio_dif (lista):
+    suma = 0
+    for i in range (len(lista)-1):
+        suma += -(abs(lista[i]) + abs(lista[i+1]))
+        return suma
+ 
+
+lista1 = [3, 7, 14, 20] 
+
+print(sumatorio_dif(lista1))
+
+      

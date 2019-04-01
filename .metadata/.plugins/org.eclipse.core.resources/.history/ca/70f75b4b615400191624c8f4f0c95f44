@@ -1,0 +1,19 @@
+'''
+Created on 1 abr. 2019
+Ejercicio libro 268. Función que recibe una lista de números y devuelve el valor de su mayor elemento.
+@author: joseluis
+'''
+
+def maximo_lista (lista):
+    mayor = lista[0]
+    for num in lista:
+        if num > mayor:
+            mayor = num
+            
+    return mayor
+
+
+lista1 = [773, 7, 14, 20] 
+print(maximo_lista(lista1))
+
+      

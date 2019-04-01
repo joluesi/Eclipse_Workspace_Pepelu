@@ -1,0 +1,21 @@
+'''
+Created on 1 abr. 2019
+Ejercicio libro 272. Función que devuelve el producto de todos los números de una lista.
+@author: joseluis
+'''
+
+def producto_lista(lista):
+    
+    producto = 0
+    if len(lista) > 0:
+        for i in range(len(lista)-1):
+            producto *= (lista[i] * lista[i+1])
+            
+    else:
+        producto = None
+ 
+    return producto
+
+
+lista1 = [1, 2, 3, 4, 4] 
+print(producto_lista(lista1))

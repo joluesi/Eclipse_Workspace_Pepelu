@@ -1,0 +1,12 @@
+'''
+Created on 1 abr. 2019
+
+@author: joseluis
+'''
+
+lista1 = [3, 8, 19, 20, 5] 
+
+lista1.sort()
+
+print(lista1)
+

@@ -1,0 +1,21 @@
+'''
+Created on 1 abr. 2019
+Ejercicio libro 273. Función que devuelve el valor absoluto de la máxima diferencia entre dos números cualesquiera de una lista.
+@author: joseluis
+'''
+
+
+def max_diferencia_lista (lista):
+    
+    lista.sort()
+    
+    dif = lista[-1] - lista[0]
+    
+    return dif
+
+
+lista1 = [31, 8, 195, 20, 4] 
+
+print(max_diferencia_lista(lista1))
+
+    
