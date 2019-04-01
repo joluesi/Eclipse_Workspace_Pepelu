@@ -1,4 +1,37 @@
 package domain;
+<<<<<<< HEAD
+
+public class Caballo extends Thread{
+	private int longitudPista;
+	
+	// constructor
+	public Caballo(int longitudPista) {
+		this.longitudPista = longitudPista;
+		
+	}
+
+	public void run(){
+		int posicion = 0;
+		System.out.println("Caballo corriendo");
+		System.out.println();
+		while (posicion < longitudPista){
+			posicion += 10;
+			int espera = (int) (Math.random()*100)+1;
+			try {
+				Thread.sleep(espera);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			System.out.print("*");
+		}
+		System.out.println();
+		System.out.println("Caballo termina");
+		
+	}
+
+}
+=======
 import java.util.Random;
 
 public class Caballo extends Thread{	
@@ -30,3 +63,4 @@ public class Caballo extends Thread{
 }
 
 
+>>>>>>> 248b57efbe7f46408673a848161403b5f9570375

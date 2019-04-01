@@ -1,0 +1,9 @@
+package domain;
+
+public class Consumidor extends Thread{
+	
+	public void run(){
+		
+	}
+
+}

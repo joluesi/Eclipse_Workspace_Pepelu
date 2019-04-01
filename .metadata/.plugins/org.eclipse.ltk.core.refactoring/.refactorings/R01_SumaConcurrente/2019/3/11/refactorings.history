@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;domain.computo&apos; to &apos;Computo&apos;&#x0A;- Original project: &apos;R01_SumaConcurrente&apos;&#x0A;- Original element: &apos;domain.computo&apos;&#x0A;- Renamed element: &apos;domain.Computo&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;computo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;domain{computo.java[computo" matchStrategy="1" name="Computo" qualified="false" references="true" similarDeclarations="false" stamp="1552638825998" textual="false" version="1.0"/>
+</session>

@@ -5,7 +5,7 @@ Ejercicio 6.- Programa que calcule los 100 primeros números de la sucesión de 
 Versión 1 - Hecho con diccionario.
 @author: joseluis
 '''
-from __future__ import print_function
+#from __future__ import print_function
 
 listaFibo = dict()
 

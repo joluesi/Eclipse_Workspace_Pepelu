@@ -1,0 +1,42 @@
+package domain;
+
+public class Productor extends Thread{
+	
+	private Cesto miCestoManzanas;
+	private int capacidadCesto;
+	
+	public Productor(Cesto miCestoManzanas, int capacidadCesto) {
+		this.miCestoManzanas = miCestoManzanas;
+		this.capacidadCesto = capacidadCesto;
+	}
+
+	public void run(){
+		while(true){
+			if (miCestoManzanas.getManzanasCesto() == capacidadCesto){
+				try{
+					System.out.println("Jardinero a dormir...");
+					wait();
+				}catch (InterruptedException e) {}				
+			} // si cesto está lleno a dormir
+			
+			else{
+				notifyAll();
+			}
+			
+			int meter = (int) (Math.random()*5)+1;
+			int metidas = 0;
+			if (miCestoManzanas.getManzanasCesto() <= capacidadCesto){
+				metidas = miCestoManzanas.ponerManzanasCesto(meter);
+			}
+			System.out.println("El jardinero mete " +metidas+ ". En el cesto hay "+miCestoManzanas.getManzanasCesto());
+			int espera = (int) (Math.random()*1000)+1;
+			try{
+				sleep(espera);
+			}catch (InterruptedException e) {}
+			
+		}//end-while
+		
+	}
+	
+
+}

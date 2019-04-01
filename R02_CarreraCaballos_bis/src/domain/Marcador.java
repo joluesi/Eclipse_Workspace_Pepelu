@@ -1,0 +1,66 @@
+package domain;
+
+public class Marcador extends Thread{
+
+	private int longitudPista;
+	private int numCaballos;
+	private int caballoGanador;
+	private Caballo [] carrera;
+	
+	public Marcador(int longitudPista, int numCaballos) {
+		this.longitudPista = longitudPista;
+		this.numCaballos = numCaballos;
+		carrera = new Caballo[numCaballos];
+		for (int i = 0; i < numCaballos; i++) {
+			carrera[i] = new Caballo(longitudPista);
+		}
+	}
+	
+	public void run() {
+		//Se inicia la carrera
+		for (int i = 0; i < numCaballos; i++) {
+			carrera[i].start();
+		}
+		boolean corriendo;
+		do {
+			corriendo = false;
+			for (int i = 0; i < numCaballos; i++) {
+				if ( carrera[i].isAlive() )
+					corriendo = true;
+				else {
+					if (carrera[i].getMeta()) {
+						caballoGanador = i;
+						terminarCarrera();
+						corriendo = false;
+						break;
+					}//end-if
+				}//end-if
+			}//end-for
+			printMarcador();
+		}//end-do
+		while (corriendo);
+		System.out.println("El caballo ganador es "+caballoGanador);
+	}
+
+	private void terminarCarrera() {
+		for (int i = 0; i < numCaballos; i++) {
+			carrera[i].setTerminar();
+		}
+	}
+
+	private void printMarcador() {
+		System.out.println("Carrera de caballos");
+		for (int i = 0; i < numCaballos; i++) {
+			printPista( i, carrera[i].getPosicion() );
+		}
+	}
+
+	private void printPista(int dorsal, int posicion) {
+		System.out.print("Caballo "+dorsal+" ");
+		for (int l = 0; l < (posicion/20); l++) {
+			System.out.print("*");
+		}
+		System.out.println();
+	}
+
+}

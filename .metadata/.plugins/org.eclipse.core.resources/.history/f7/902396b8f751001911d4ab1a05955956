@@ -1,0 +1,13 @@
+package domain;
+
+public class Cesto {
+	
+	//4º creo una variable para saber cuantas manzanas tengo en el cesto en ese momento
+	private in manzanasCesto;
+	
+	//3º creo el constructor de la clase Cesto
+	public Cesto (int capacidadCesto){
+		this.capacidadCesto = capacidadCesto;
+		this.manzanasCesto = capacidadCesto;
+	}
+}

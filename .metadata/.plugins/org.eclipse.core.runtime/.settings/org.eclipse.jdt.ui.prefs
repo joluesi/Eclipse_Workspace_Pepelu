@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"/>
+content_assist_number_of_computers=13
+content_assist_proposals_background=247,247,247
+content_assist_proposals_foreground=33,33,33
+eclipse.preferences.version=1
+fontPropagated=true
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=12
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+=======
 content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000
 content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Enum"><rhs name\="bucles.PuestoTrabajo"/></lhs><lhs name\="bucles.PuestoTrabajo"><rhs name\="bucles.PuestoTrabajo"/></lhs></history>
 content_assist_number_of_computers=16
@@ -8,10 +20,17 @@ org.eclipse.jdt.ui.exception.name=e
 org.eclipse.jdt.ui.formatterprofiles.version=15
 org.eclipse.jdt.ui.gettersetter.use.is=true
 org.eclipse.jdt.ui.overrideannotation=true
+>>>>>>> 248b57efbe7f46408673a848161403b5f9570375
 org.eclipse.jdt.ui.text.code_templates_migrated=true
 org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 org.eclipse.jdt.ui.text.templates_migrated=true
+<<<<<<< HEAD
+org.eclipse.jface.textfont=1|Monospace|12.0|0|GTK|1|;
+proposalOrderMigrated=true
+spelling_locale_initialized=true
+tabWidthPropagated=true
+=======
 spelling_ignore_ampersand_in_properties=true
 spelling_ignore_digits=true
 spelling_ignore_java_strings=true
@@ -23,5 +42,6 @@ spelling_ignore_upper=true
 spelling_ignore_urls=true
 spelling_locale_initialized=true
 spelling_user_dictionary_encoding=
+>>>>>>> 248b57efbe7f46408673a848161403b5f9570375
 useAnnotationsPrefPage=true
 useQuickDiffPrefPage=true

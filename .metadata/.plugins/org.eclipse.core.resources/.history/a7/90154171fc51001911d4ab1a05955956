@@ -1,0 +1,16 @@
+package domain;
+
+public class Consumidor extends Thread{
+	
+	private Cesto micestoManzanas;
+	
+	public Consumidor(Cesto miCestoManzanas) {
+		this.micestoManzanas = miCestoManzanas;
+		
+	}
+
+	public void run(){
+		
+	}
+
+}

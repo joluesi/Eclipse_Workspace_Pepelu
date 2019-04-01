@@ -1,0 +1,30 @@
+package domain;
+
+public class Productor extends Thread{
+	
+	private Cesto miCestoManzanas;
+	
+	public Productor(Cesto miCestoManzanas) {
+		this.miCestoManzanas = miCestoManzanas;
+		
+	}
+
+	public void run(){
+		while(true){
+			int meter = (int) (Math.random()*5)+1;
+			int metidas = 0
+			if miCestoManzanas.getManzanasCesto() <= capacidadCesto){
+				comidas = miCestoManzanas.comerManzanasCesto(comer);
+			}
+			System.out.println("Me como " +comidas);
+			int espera = (int) (Math.random()*1000)+1;
+			try{
+				sleep(espera);
+			}catch (InterruptedException e) {}
+			
+		}//end-while
+		
+	}
+	
+
+}

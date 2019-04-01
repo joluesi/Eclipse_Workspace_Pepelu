@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+<<<<<<< HEAD
+	<item value="0" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
+	<item value="/home/dam18-27/workspace_pepelu/Eclipse_Workspace_Pepelu/.git" key="GitSelectRepositoryPage.lastRepository"/>
+	<section name="GitImportWizard">
+		<item value="true" key="GitProjectsImportPage.STORE_NESTED_PROJECTS"/>
+=======
 	<list key="RepositorySelectionPage.UsedUris">
 		<item value="file:///C:\Users\joseluis\eclipse-workspace_2018_12\HiloSimple"/>
 	</list>
@@ -34,5 +40,6 @@
 		<item value="200,200" key="STAGING_SASH_FORM_WEIGHT"/>
 		<item value="false" key="sortItemState"/>
 		<item value="200,200" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
+>>>>>>> 248b57efbe7f46408673a848161403b5f9570375
 	</section>
 </section>

@@ -1,0 +1,17 @@
+package domain;
+
+public class Productor extends Thread{
+	
+	private Cesto miCestoManzanas;
+	
+	public Productor(Cesto miCestoManzanas) {
+		this.miCestoManzanas = miCestoManzanas;
+		
+	}
+
+	public void run(){
+		
+	}
+	
+
+}

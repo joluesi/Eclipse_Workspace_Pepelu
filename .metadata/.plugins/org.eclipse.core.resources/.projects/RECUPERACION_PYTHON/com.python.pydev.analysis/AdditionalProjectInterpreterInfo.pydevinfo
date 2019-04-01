@@ -1,0 +1,71 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/dam18-27/workspace_pepelu/.metadata/.plugins/org.eclipse.core.resources/.projects/RECUPERACION_PYTHON/com.python.pydev.analysis/v2_indexcache
+ejercicios_clase.__init__|1552561008000|/home/dam18-27/workspace_pepelu/RECUPERACION_PYTHON/ejercicios_clase/__init__.py
+ejercicios_clase.generarLista|1553170524000|/home/dam18-27/workspace_pepelu/RECUPERACION_PYTHON/ejercicios_clase/generarLista.py
+Ejercicios_BUCLES.practica3_ejercicio_8|1552559667000|/home/dam18-27/workspace_pepelu/RECUPERACION_PYTHON/Ejercicios_BUCLES/practica3_ejercicio_8.py
+ejercicios_clase.matriz_repaso_ej_238|1553082812000|/home/dam18-27/workspace_pepelu/RECUPERACION_PYTHON/ejercicios_clase/matriz_repaso_ej_238.py
+ejercicios_clase.prueba_matrices|1553165136000|/home/dam18-27/workspace_pepelu/RECUPERACION_PYTHON/ejercicios_clase/prueba_matrices.py
+ejercicios_clase.ejercicio_240|1553165136000|/home/dam18-27/workspace_pepelu/RECUPERACION_PYTHON/ejercicios_clase/ejercicio_240.py
+Ejercicios_BUCLES.practica3_ejercicio_2|1552559667000|/home/dam18-27/workspace_pepelu/RECUPERACION_PYTHON/Ejercicios_BUCLES/practica3_ejercicio_2.py
+ejercicios_clase.matriz_aleatoria|1553170105000|/home/dam18-27/workspace_pepelu/RECUPERACION_PYTHON/ejercicios_clase/matriz_aleatoria.py
+Ejercicios_BUCLES.practica3_ejercicio_3|1552559667000|/home/dam18-27/workspace_pepelu/RECUPERACION_PYTHON/Ejercicios_BUCLES/practica3_ejercicio_3.py
+ejercicios_clase.matriz_duplicados|1553083246000|/home/dam18-27/workspace_pepelu/RECUPERACION_PYTHON/ejercicios_clase/matriz_duplicados.py
+ejercicios_clase.recorre_matriz|1552563271000|/home/dam18-27/workspace_pepelu/RECUPERACION_PYTHON/ejercicios_clase/recorre_matriz.py
+ejercicios_clase.matrices_ejercicio_236|1553085169000|/home/dam18-27/workspace_pepelu/RECUPERACION_PYTHON/ejercicios_clase/matrices_ejercicio_236.py
+Ejercicios_BUCLES.practica3_ejercicio_1|1552559667000|/home/dam18-27/workspace_pepelu/RECUPERACION_PYTHON/Ejercicios_BUCLES/practica3_ejercicio_1.py
+ejercicios_clase.matrices_ejercicio_235|1553083838000|/home/dam18-27/workspace_pepelu/RECUPERACION_PYTHON/ejercicios_clase/matrices_ejercicio_235.py
+Ejercicios_BUCLES.practica3_ejercicio_6|1552559667000|/home/dam18-27/workspace_pepelu/RECUPERACION_PYTHON/Ejercicios_BUCLES/practica3_ejercicio_6.py
+Ejercicios_BUCLES.practica3_ejercicio_7|1552559667000|/home/dam18-27/workspace_pepelu/RECUPERACION_PYTHON/Ejercicios_BUCLES/practica3_ejercicio_7.py
+Ejercicios_BUCLES.practica3_ejercicio_4|1552559667000|/home/dam18-27/workspace_pepelu/RECUPERACION_PYTHON/Ejercicios_BUCLES/practica3_ejercicio_4.py
+Ejercicios_BUCLES.practica3_ejercicio_5|1552559667000|/home/dam18-27/workspace_pepelu/RECUPERACION_PYTHON/Ejercicios_BUCLES/practica3_ejercicio_5.py
+ejercicios_clase.ejercicio_239|1553165136000|/home/dam18-27/workspace_pepelu/RECUPERACION_PYTHON/ejercicios_clase/ejercicio_239.py
+ejercicios_clase.probar_funcion_matrices|1553166603000|/home/dam18-27/workspace_pepelu/RECUPERACION_PYTHON/ejercicios_clase/probar_funcion_matrices.py
+-- END DISKCACHE
+-- START DICTIONARY
+17
+11=ejercicios_clase.generarLista
+7=ejercicios_clase.matriz_repaso_ej_238
+10=Ejercicios_BUCLES.practica3_ejercicio_8
+1=ejercicios_clase.prueba_matrices
+4=ejercicios_clase.ejercicio_240
+5=ejercicios_clase.matriz_aleatoria
+6=ejercicios_clase.matriz_duplicados
+9=Ejercicios_BUCLES.practica3_ejercicio_3
+3=ejercicios_clase.matrices_ejercicio_236
+14=ejercicios_clase.recorre_matriz
+2=ejercicios_clase.matrices_ejercicio_235
+12=Ejercicios_BUCLES.practica3_ejercicio_1
+15=Ejercicios_BUCLES.practica3_ejercicio_7
+17=Ejercicios_BUCLES.practica3_ejercicio_4
+16=Ejercicios_BUCLES.practica3_ejercicio_5
+13=ejercicios_clase.ejercicio_239
+8=ejercicios_clase.probar_funcion_matrices
+-- END DICTIONARY
+-- START TREE 1
+21
+M|7|M!11@M!19@M!27@M!35@M!43@M!51@M!59@
+M1|1|M1!67@
+M2|1|M2!67@
+a|3|a!11@a!51@a!19@
+alu|1|alumnos!75@
+apr|1|aprobados!75@
+c|1|c!11@
+dia|1|diaSemana!83@
+gen|1|GenerarLista!90@
+i|2|i!99@i!75@
+mat|3|matriz!107@matriz!11@matriz!115@
+may|1|mayor!123@
+n|1|n!35@
+not|1|nota!75@
+num|5|numDias!83@num!131@num!123@num!139@num!99@
+s|1|s!59@
+sal|1|salir!75@
+sem|1|Semejantes!90@
+sum|2|sumaNotas!75@sumaPares!139@
+sus|1|suspensos!75@
+x|1|x!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,20 @@
+package domain;
+
+public class Caballo {
+	
+	
+	
+	public void run(){
+		while posicion < longitudPista){
+			posicion = posicion + 10;
+			int espera = (int) (Math.random()*100+1);
+			try{
+				Thread.sleep(espera);
+			}catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+		meta = true;
+	}	
+
+}

@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+<<<<<<< HEAD
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="504" key="DIALOG_X_ORIGIN"/>
+		<item value="224" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="1|Noto Sans|9.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="594" key="DIALOG_HEIGHT"/>
+		<item value="539" key="DIALOG_X_ORIGIN"/>
+		<item value="40" key="DIALOG_Y_ORIGIN"/>
+=======
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
 		<item value="C:\Users\joseluis\Downloads\RECUPERACION_PROCESOS"/>
 		<item value="C:\Users\joseluis\Downloads\R02_CarreraCaballos"/>
@@ -38,5 +60,6 @@
 		<item value="580" key="DIALOG_HEIGHT"/>
 		<item value="706" key="DIALOG_X_ORIGIN"/>
 		<item value="142" key="DIALOG_Y_ORIGIN"/>
+>>>>>>> 248b57efbe7f46408673a848161403b5f9570375
 	</section>
 </section>

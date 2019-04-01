@@ -1,4 +1,7 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
+=======
 hoverModifiers=combinationHover|true|0;problemHover|false|0;documentationHover|false|0;annotationHover|true|Shift;
+>>>>>>> 248b57efbe7f46408673a848161403b5f9570375
 useAnnotationsPrefPage=true
 useQuickDiffPrefPage=true
