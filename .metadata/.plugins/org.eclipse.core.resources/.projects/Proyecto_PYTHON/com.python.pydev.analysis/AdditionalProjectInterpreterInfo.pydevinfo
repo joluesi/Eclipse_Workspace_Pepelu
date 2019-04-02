@@ -38,9 +38,9 @@ ejercicios_clase.probar_funcion_matrices|1553175434837157000|C:\Users\joseluis\e
 13=C:\Users\joseluis\eclipse-workspace_2018_12\Proyecto_PYTHON\ejercicios_clase\matriz_duplicados.py
 15=C:\Users\joseluis\eclipse-workspace_2018_12\Proyecto_PYTHON\ejercicios_clase\matriz_repaso_ej_238.py
 32=Ejercicios_BUCLES.practica3_ejercicio_7
-36=Ejercicios_BUCLES.practica3_ejercicio_4
-34=Ejercicios_BUCLES.practica3_ejercicio_5
-35=C:\Users\joseluis\eclipse-workspace_2018_12\Proyecto_PYTHON\Ejercicios_BUCLES\practica3_ejercicio_4.py
+34=Ejercicios_BUCLES.practica3_ejercicio_4
+36=Ejercicios_BUCLES.practica3_ejercicio_5
+33=C:\Users\joseluis\eclipse-workspace_2018_12\Proyecto_PYTHON\Ejercicios_BUCLES\practica3_ejercicio_4.py
 4=ejercicios_clase.Apartado_5
 3=C:\Users\joseluis\eclipse-workspace_2018_12\Proyecto_PYTHON\ejercicios_clase\Apartado_5.4.2.py
 16=ejercicios_clase.matriz_repaso_ej_238
@@ -58,7 +58,7 @@ ejercicios_clase.probar_funcion_matrices|1553175434837157000|C:\Users\joseluis\e
 27=C:\Users\joseluis\eclipse-workspace_2018_12\Proyecto_PYTHON\ejercicios_clase\ejercicio_239.py
 18=ejercicios_clase.probar_funcion_matrices
 23=C:\Users\joseluis\eclipse-workspace_2018_12\Proyecto_PYTHON\ejercicios_clase\generarLista.py
-33=C:\Users\joseluis\eclipse-workspace_2018_12\Proyecto_PYTHON\Ejercicios_BUCLES\practica3_ejercicio_5.py
+35=C:\Users\joseluis\eclipse-workspace_2018_12\Proyecto_PYTHON\Ejercicios_BUCLES\practica3_ejercicio_5.py
 19=C:\Users\joseluis\eclipse-workspace_2018_12\Proyecto_PYTHON\Ejercicios_BUCLES\practica3_ejercicio_3.py
 11=C:\Users\joseluis\eclipse-workspace_2018_12\Proyecto_PYTHON\ejercicios_clase\matriz_aleatoria.py
 25=C:\Users\joseluis\eclipse-workspace_2018_12\Proyecto_PYTHON\Ejercicios_BUCLES\practica3_ejercicio_1.py
@@ -68,7 +68,7 @@ ejercicios_clase.probar_funcion_matrices|1553175434837157000|C:\Users\joseluis\e
 M|8|M!1^17#1*19@M!3^9#1*35@M!5^7#1*51@M!7^7#1*67@M!9^8#1*83@M!11^9#1*99@M!13^7#1*115@M!15^7#1*131@
 M1|1|M1!17^9#1*147@
 M2|1|M2!17^10#1*147@
-a|3|a!1^7#1*19@a!13^6#1*115@a!5^9#5*51@
+a|3|a!13^6#1*115@a!1^7#1*19@a!5^9#5*51@
 alu|1|alumnos!19^29#1*163@
 apr|1|aprobados!19^11#1*163@
 c|1|c!1^10#1*19@
@@ -76,15 +76,15 @@ dia|1|diaSemana!21^10#1*179@
 gen|1|GenerarLista!23^9#5*194@
 i|2|i!25^10#1*211@i!19^10#1*163@
 m|1|m!3^7#1*35@
-mat|3|matriz!27^17#1*227@matriz!1^23#1*19@matriz!29^7#1*243@
+mat|3|matriz!27^17#1*227@matriz!29^7#1*243@matriz!1^23#1*19@
 may|1|mayor!31^10#1*259@
 n|2|n!3^8#1*35@n!9^7#1*83@
 not|1|nota!19^17#5*163@
-num|5|numDias!21^9#1*179@num!33^9#1*275@num!31^9#1*259@num!35^9#1*291@num!25^8#1*211@
+num|5|num!33^9#1*275@numDias!21^9#1*179@num!35^9#1*291@num!31^9#1*259@num!25^8#1*211@
 s|1|s!15^8#1*131@
 sal|1|salir!19^14#1*163@
 sem|1|Semejantes!23^18#5*194@
-sum|2|sumaNotas!19^13#1*163@sumaPares!35^11#1*291@
+sum|2|sumaNotas!19^13#1*163@sumaPares!33^11#1*275@
 sus|1|suspensos!19^12#1*163@
 x|1|x!1^25#5*19@
 -- END TREE
